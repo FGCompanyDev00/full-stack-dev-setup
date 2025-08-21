@@ -1,4 +1,13 @@
+# Essential: Set Your Git Identity
 
+Before authenticating with GitHub, configure your global Git username and email. This ensures your commits are properly attributed.
+
+```sh
+git config --global user.name "FGCompanyDev00"
+git config --global user.email "fgcompany.developer@gmail.com"
+```
+
+> **Note:** This step is important for all Git operations and should be done before pushing code to any repository.
 # Easy GitHub CLI Authentication Guide
 
 Authenticate your local development environment with GitHub using the official GitHub CLI (`gh`).
